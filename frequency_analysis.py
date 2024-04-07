@@ -23,7 +23,7 @@ replacedText=""
 sortedFreq = dict(sorted(freq.items(), key=lambda item: item[1], reverse=True))
 
 # Output the sorted dictionary
-print(sortedFreq)  # Output: {'a': 3, 'c': 2, 'b': 1}
+print(sortedFreq)
 for key in sortedFreq:
     if i==0:
         print(f"The most frequent letter in the ciphertext is: {key}, therefore replacing it with the most frequent letter in the english language (e) gives us:")
