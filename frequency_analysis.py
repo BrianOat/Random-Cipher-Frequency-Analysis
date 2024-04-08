@@ -1,3 +1,4 @@
+#Team members: Vidhi Dholakia, Brian Ochoa, Charles Thelusma
 # Prompt user input
 ciphertxt = input("Enter Cipher Text: ")
 
@@ -23,7 +24,7 @@ print(sortedFreq)
 
 replacedText = ciphertxt  # Initialize replacedText with the original ciphertext
 
-# Perform automated partial decryption
+# Perform automated partial decryption for each letter/key in the dictionary
 for i, key in enumerate(sortedFreq):
     if i == 0:
         print(f"The most frequent letter in the ciphertext is: {key}, therefore replacing it with the most frequent letter in the English language (E) gives us:")
