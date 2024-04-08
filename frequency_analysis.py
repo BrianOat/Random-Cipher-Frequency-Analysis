@@ -43,6 +43,7 @@ while True:
         break
     replacement = input("Replacement letter: ")
     replacedText = replacedText.replace(original.upper(), replacement.upper())
+    print(replacedText)
 
 # Output fully decrypted text
 print("\nFully decrypted text:")
